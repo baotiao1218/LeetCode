@@ -1,5 +1,3 @@
-##這題要用heap sort, 但我直接sort掉了. heap sort解法詳見optimized 1
-
 class Solution:
     def kClosest(self, points: List[List[int]], k: int) -> List[List[int]]:
         closest = []
