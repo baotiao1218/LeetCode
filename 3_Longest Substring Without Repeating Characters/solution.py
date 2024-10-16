@@ -20,6 +20,7 @@ class Solution:
 ## Time Complexity:O(n^2) (list要遍歷)
 ## Space complexity:O(n)
 
+# Optimized solution:
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         strset = set()
@@ -35,5 +36,5 @@ class Solution:
             maxlength = max(maxlength, right - left + 1)
 
         return maxlength
-## Time Complexity:O(n) (set用hashtable,所以其add,del,find...皆為O(1))
+## Time Complexity:O(n) (set用hashtable,所以其add,del,find...皆為O(1), 效率較佳)
 ## Space complexity:O(n)
